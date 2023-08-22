@@ -30,15 +30,5 @@ int main()
     } else {
         printf("Invalid choice.\n");
     }
-    {
-    printf("your temperature is: %d\n", new_temp);
-
-      printf("Do you want to convert another temperature? (y/n): ");
-        scanf(" %c", &again); // Notice the space before %c to consume the newline character
-
-    } while (again == 'y' || again == 'Y');
-
-    printf("Goodbye!\n");
-
     return 0;
 }
