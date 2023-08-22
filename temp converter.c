@@ -2,6 +2,8 @@
 #include <stdlib.h>
 /**
  * a program that converts temperature from Celsius  to Fahrenheit */
+
+/** choice: give option to pick the convertion type*/
 int main()
 {
     int choice;
@@ -12,11 +14,13 @@ int main()
     printf("Enter your choice: ");
     scanf("%d", &choice);
 
+    /** num: takes user input to be converted */
     int num;
 
     printf("please enter a number that is temperature: ");
     scanf("%d", &num);
 
+    /** new_temp: function to convert num to a new temperature */
     int new_temp;
 
      if (choice == 1) {
