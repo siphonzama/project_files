@@ -1,9 +1,6 @@
 #include <stdio.h>
 
 /**A basic Currency Converter that will change U$D(Dollar) to ZAR(Rand)*/
-/**Do: starts a loop for the program*/
-/**while: sees if the program should be run again*/
-
 int main()
 {
     char choice;
@@ -22,6 +19,7 @@ do{
 
     printf("Enter your amount: ");
     scanf("%d", &num);
+    
 /**Conversion methods*/
     int new_num;
 
