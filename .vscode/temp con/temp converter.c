@@ -30,6 +30,9 @@ int main()
     } else {
         printf("Invalid choice.\n");
     }
+<<<<<<< HEAD:.vscode/temp con/temp converter.c
     
+=======
+>>>>>>> 21cfe07f2997682cfabd379966c1fb173e815cf9:temp converter.c
     return 0;
 }
